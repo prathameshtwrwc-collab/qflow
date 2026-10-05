@@ -1,0 +1,6 @@
+docs
+supabase
+dist
+build.py
+*.md
+screenshot-*.png
