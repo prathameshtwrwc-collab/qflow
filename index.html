@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>QuoteFlow — Create quotations. Win more business.</title>
-<script>try{var t=localStorage.getItem('qf-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script>/* light unless the visitor picked dark with the toggle; the system setting is not followed */
+var t='light';try{t=localStorage.getItem('qf-theme')||'light'}catch(e){}document.documentElement.dataset.theme=t</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
